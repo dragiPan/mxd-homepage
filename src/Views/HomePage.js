@@ -1,21 +1,32 @@
-import React, { useState } from 'react';
-import './HomePage.css';
+import React from "react";
+import Header from "../Components/Header";
+import HeroSection from "../Components/HeroSection";
+import WhatWeDoSection from "../Components/WhatWeDoSection";
+import WhoWeAreSection from "../Components/WhoWeAreSection";
+import OurApproachSection from "../Components/OurApproachSection";
+import OurServicesSection from "../Components/OurServicesSection";
+import OurVerticlesSection from "../Components/OurVerticlesSection";
+import GetInTouchSection from "../Components/GetInTouchSection";
+import GetInTouchFooterSection from "../Components/GetInTouchFooterSection";
+import Footer from "../Components/Footer";
+import ScalingSection from "../Components/ScalingSection";
+import BusinessesSection from "../Components/BusinessesSection";
 
-const HomePage = () => {
-    const [isBlue, setIsBlue] = useState(false);
-
-    const toggleColor = () => {
-        setIsBlue(!isBlue);
-    };
-
-    return (
-        <div className="cafe-homepage">
-            <h1>Welcome to Webcafe AI</h1>
-            <p>Your go-to solution for AI-driven web applications.</p>
-            <div className={`cafe-color-box ${isBlue ? 'cafe-blue' : 'cafe-red'}`}></div>
-            <button className="cafe-button" onClick={toggleColor}>Change Color</button>
-        </div>
-    );
-};
-
-export default HomePage;
+export default function HomePage() {
+  return (
+    <main className="flex flex-col bg-white">
+      <Header />
+      <HeroSection />
+      <WhatWeDoSection />
+      <WhoWeAreSection />
+      <OurApproachSection />
+      <GetInTouchSection/>
+      <ScalingSection/>
+      <BusinessesSection/>
+      <OurServicesSection />
+      <OurVerticlesSection />
+      <GetInTouchFooterSection/>
+      <Footer />
+    </main>
+  );
+}
