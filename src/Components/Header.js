@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Button from "./Button";
 import logo from "../assets/images/logo.svg";
 import arrow from "../assets/images/arrow.svg";
-import lines from "../assets/images/lines.png";
-import ex from "../assets/images/ex.png";
+import lines from "../assets/images/lines.svg";
+import ex from "../assets/images/ex.svg";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -91,7 +91,7 @@ export default function Header() {
 
         {/* Navigation and Button Container - Desktop */}
         <div className="flex items-center justify-end min-w-fit gap-[10%]">
-          <nav className="hidden lg:flex items-center gap-[10%] text-lg font-normal text-black min-w-fit">
+          <nav className="hidden lg:flex items-center gap-[10%] text-lg font-normal text-black min-w-fit mr-[10%]">
             {Object.entries(navItems).map(([key, { title }]) => (
               <div key={key} className="relative group">
                 <button

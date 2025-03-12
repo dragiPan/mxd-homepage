@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import leftArrow from "../assets/images/left_arrow.svg";
 import rightArrow from "../assets/images/right_arrow.svg";
-import womanHeadset from "../assets/images/woman_headset.png";
-import baker from "../assets/images/baker.png";
-import runner from "../assets/images/runner.png";
+import womanHeadset from "../assets/images/woman_headset.webp";
+import baker from "../assets/images/baker.webp";
+import runner from "../assets/images/runner.webp";
 
 const colors = [
   { image: "#BEBEBE", text: "#D9D9D9" },

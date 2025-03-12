@@ -4,11 +4,11 @@ import Button from "./Button";
 export default function GetInTouchSection() {
   return (
     <section className="relative w-full bg-white py-16">
-      <div className="w-[65%] md:w-[85%] max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-[20%]">
+      <div className="w-[85%] sm:w-[75%] md:w-[85%] max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-[10%] md:gap-[20%]">
           {/* Left: Heading & Text */}
           <div className="w-full md:w-[45%] text-center md:text-left">
-            <h2 className="text-5xl font-semibold font-poppins mb-4">
+            <h2 className="text-4xl sm:text-5xl font-semibold font-poppins mb-4">
               Get in touch with us
             </h2>
             <p className="text-base font-normal font-poppins leading-relaxed opacity-80">
@@ -19,20 +19,20 @@ export default function GetInTouchSection() {
 
           {/* Right: Contact Form */}
           <div className="w-full md:w-[40%] pt-8 md:pt-0">
-            <div className="flex flex-col space-y-4 mb-8">
+            <div className="flex flex-col space-y-4 mb-6">
               <input
                 type="text"
                 placeholder="Name"
-                className="w-full h-12 pl-8 border border-black rounded-full text-base font-normal focus:outline-none"
+                className="w-full h-12 pl-5 sm:pl-8 border border-black rounded-full text-base font-normal focus:outline-none"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="w-full h-12 pl-8 border border-black rounded-full text-base font-normal focus:outline-none"
+                className="w-full h-12 pl-5 sm:pl-8 border border-black rounded-full text-base font-normal focus:outline-none"
               />
             </div>
             <div className="flex justify-center w-full">
-              <Button variant="chat">
+              <Button variant="chat" className="w-full md:w-auto">
                 Let's Chat
               </Button>
             </div>

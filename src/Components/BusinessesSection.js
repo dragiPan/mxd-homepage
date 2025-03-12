@@ -1,21 +1,22 @@
 import React from "react";
 import Button from "./Button";
+import leftArrow from "../assets/images/left_arrow.svg";
 
 // Importing logos in reverse order
-import terra15 from "../assets/images/terra15.png";
-import primary_horizontal from "../assets/images/primary_horizontal.png";
-import the_leaf from "../assets/images/the_leaf.png";
-import retreats from "../assets/images/retreats.png";
-import bottoms_up from "../assets/images/bottoms_up.png";
-import cleartrip from "../assets/images/cleartrip.png";
-import flydubai from "../assets/images/flydubai.png";
-import ifeelgood from "../assets/images/ifeelgood.png";
-import move_with_us from "../assets/images/move_with_us.png";
-import viewpoint from "../assets/images/viewpoint.png";
-import clinic27 from "../assets/images/clinic27.png";
-import complete_chiropractic from "../assets/images/complete_chiropractic.png";
-import guy from "../assets/images/guy.png";
-import prd_survey from "../assets/images/prd_survey.png";
+import terra15 from "../assets/images/terra15.webp";
+import primary_horizontal from "../assets/images/primary_horizontal.webp";
+import the_leaf from "../assets/images/the_leaf.webp";
+import retreats from "../assets/images/retreats.webp";
+import bottoms_up from "../assets/images/bottoms_up.webp";
+import cleartrip from "../assets/images/cleartrip.webp";
+import flydubai from "../assets/images/flydubai.webp";
+import ifeelgood from "../assets/images/ifeelgood.webp";
+import move_with_us from "../assets/images/move_with_us.webp";
+import viewpoint from "../assets/images/viewpoint.webp";
+import clinic27 from "../assets/images/clinic27.webp";
+import complete_chiropractic from "../assets/images/complete_chiropractic.webp";
+import guy from "../assets/images/guy.webp";
+import prd_survey from "../assets/images/prd_survey.webp";
 
 const logos = [
   prd_survey,

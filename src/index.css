@@ -10,4 +10,20 @@ body {
   font-family: "Poppins", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 320px; /* Prevent site from being smaller than 320px */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Enforce full width for main container */
+#root {
+  width: 100%;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+/* Fix for sections to maintain full width */
+section {
+  width: 100% !important;
+  min-width: 320px;
+  box-sizing: border-box;
 }

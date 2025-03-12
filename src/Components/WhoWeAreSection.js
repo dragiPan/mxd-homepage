@@ -1,6 +1,6 @@
 import React from "react";
-import dottedLeft from "../assets/images/dotted-left.png";
-import meeting from "../assets/images/Meeting.png";
+import dottedLeft from "../assets/images/dotted-left.webp";
+import meeting from "../assets/images/Meeting.webp";
 import Button from "./Button";
 
 export default function WhoWeAreSection() {

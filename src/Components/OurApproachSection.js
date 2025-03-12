@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
-import iceberg from "../assets/images/iceberg.png";
-import dataWave from "../assets/images/dotted-waves.png";
+import iceberg from "../assets/images/iceberg.webp";
+import dataWave from "../assets/images/dotted-waves.webp";
 
 export default function OurApproachSection() {
   return (
@@ -38,12 +38,24 @@ export default function OurApproachSection() {
         </div>
 
         {/* Right: Iceberg Image */}
-        <div className="w-full lg:w-[50%] lg:ml-8 lg:mt-[10%] order-first lg:order-last mb-8 lg:mb-0">
-          <img
-            src={iceberg}
-            alt="Iceberg"
-            className="w-full h-auto object-contain"
-          />
+        <div className="w-full lg:w-[50%] lg:ml-8 lg:mt-[10%] order-first lg:order-last mb-8 lg:mb-0 relative">
+          <div 
+            className="relative" 
+            style={{ 
+              overflow: "hidden"
+            }}
+          >
+            {/* Main image with radial transparency mask */}
+            <img
+              src={iceberg}
+              alt="Iceberg"
+              className="w-full h-auto object-contain"
+              style={{
+                maskImage: "radial-gradient(circle at center, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 70%)",
+                WebkitMaskImage: "radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 90%)"
+              }}
+            />
+          </div>
         </div>
       </div>
 
@@ -77,7 +89,7 @@ export default function OurApproachSection() {
               centre that allows you to understand how your marketing efforts are
               translating into revenue.
             </p>
-            <Button variant="black" className="whitespace-nowrap">
+            <Button variant="dataMarketing">
               Data Driving B2B Marketing
             </Button>
           </div>

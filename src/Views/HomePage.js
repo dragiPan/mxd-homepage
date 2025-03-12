@@ -7,7 +7,6 @@ import OurApproachSection from "../Components/OurApproachSection";
 import OurServicesSection from "../Components/OurServicesSection";
 import OurVerticlesSection from "../Components/OurVerticlesSection";
 import GetInTouchSection from "../Components/GetInTouchSection";
-import GetInTouchFooterSection from "../Components/GetInTouchFooterSection";
 import Footer from "../Components/Footer";
 import ScalingSection from "../Components/ScalingSection";
 import BusinessesSection from "../Components/BusinessesSection";
@@ -25,7 +24,6 @@ export default function HomePage() {
       <BusinessesSection/>
       <OurServicesSection />
       <OurVerticlesSection />
-      <GetInTouchFooterSection/>
       <Footer />
     </main>
   );

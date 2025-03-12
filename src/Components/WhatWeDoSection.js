@@ -1,6 +1,6 @@
 import React from "react";
-import dottedRight from "../assets/images/dotted-right.png";
-import womanTyping from "../assets/images/woman-typing.png";
+import dottedRight from "../assets/images/dotted-right.webp";
+import womanTyping from "../assets/images/woman-typing.webp";
 import Button from "./Button";
 
 export default function WhatWeDoSection() {

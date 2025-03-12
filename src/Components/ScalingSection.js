@@ -1,5 +1,5 @@
-import React from "react";
-import whale from "../assets/images/whale.png";
+import React, { useState, useEffect } from "react";
+import whale from "../assets/images/whale.webp";
 
 export default function ScalingSection() {
   return (
