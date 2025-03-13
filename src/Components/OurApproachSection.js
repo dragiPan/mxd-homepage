@@ -90,7 +90,7 @@ export default function OurApproachSection() {
               translating into revenue.
             </p>
             <Button variant="dataMarketing">
-              Data Driving B2B Marketing
+              Data Driving B2B <br className="sm:hidden" /> Marketing
             </Button>
           </div>
         </div>

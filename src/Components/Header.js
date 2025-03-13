@@ -72,7 +72,7 @@ export default function Header() {
     <div className="relative" ref={headerRef}>
       <header className="fixed top-0 left-0 right-0 flex justify-between items-center w-full px-[3%] pt-6 pb-4 bg-white z-50">
         {/* Logo */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-[4px] sm:gap-4">
           <button 
             onClick={() => {
               setIsMenuOpen(!isMenuOpen);
